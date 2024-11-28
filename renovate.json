@@ -1,0 +1,8 @@
+{
+  "packageRules": [
+      {
+        "matchPackageNames": ["azul/zulu-openjdk-debian"],
+        "versioning": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)-(?<build>\\d+)\\.(?<revision>\\d+)-(?<compatibility>[a-z]+)$"
+      }
+]
+}
